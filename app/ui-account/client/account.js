@@ -6,7 +6,7 @@ import { createAccountSidebarTemplate } from '../../../client/account/sidebarIte
 
 createAccountSidebarTemplate();
 
-Template.account.onRendered(function() {
+Template.account2.onRendered(function() {
 	Tracker.afterFlush(function() {
 		SideNav.setFlex('accountFlex');
 		SideNav.openFlex();
